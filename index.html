@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <title>Park Shopping Canoas</title>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--Ínicio container-->
+    <div id="container">
+      <header>
+        <!--Ínicio logo-->
+        <div id="logo">
+          <h1><a href="#">Park Shopping Canoas</a></h1>
+        </div>
+        <!--Fim logo-->
+        <!--Ínicio nav-->
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Lojas</a></li>
+            <li><a href="#">Gastronomia</a></li>
+            <li><a href="#">Lazer</a></li>
+          </ul>
+        </nav>
+        <!--Fim nav-->
+      </header>
+      <!--Ínicio príncipal-->
+      <div id="principal">
+        <div id="conteudo">
+          <section id="capa">
+            <img
+              src="img/dentro-shopping.webp"
+              style="width: 710px; height: 320px"
+              alt="dentro-shopping"
+            />
+          </section>
+          <section id="postagens">
+            <article id="video">
+              <h3>Vídeo: Conheça o shopping</h3>
+              <iframe
+                width="310"
+                height="170"
+                src="https://www.youtube.com/embed/VVRJfH5dChg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </article>
+            <article id="mapa">
+              <h3>Encontre o shopping</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.2135653864425!2d-51.16703388488793!3d-29.915753281929337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951970113c64d4d3%3A0x16bf5b51c62658cf!2sParkShopping%20Canoas!5e0!3m2!1spt-BR!2sbr!4v1651014632554!5m2!1spt-BR!2sbr"
+                width="310"
+                height="170"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </article>
+            <article id="lojas">
+              <h3>Príncipais Lojas</h3>
+              <ul>
+                <li>
+                  <a href="">Youcom</a>
+                </li>
+                <li>
+                  <a href="">HotZone</a>
+                </li>
+                <li>
+                  <a href="">Marisa</a>
+                </li>
+                <li>
+                  <a href="">Renner</a>
+                </li>
+                <li>
+                  <a href="">Veja outras lojas</a>
+                </li>
+              </ul>
+            </article>
+            <article id="historia">
+              <h3>Nossa História</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+              <a href="">><strong>Leia Mais</strong></a>
+            </article>
+          </section>
+        </div>
+        <!--ínicio aside-->
+        <aside>
+          <section id="depoimento">
+            <img
+              src="img/externo-shopping.jfif"
+              style="width: 350px; height: 320px"
+              alt=""
+            />
+          </section>
+          <section id="visita">
+            <h4>Faça uma visita</h4>
+            <form action="">
+              <fieldset>
+                <legend>Selecione uma data:</legend>
+                <label for="data">Data</label>
+                <input class="campo" type="date" id="data" value="dd/mm/aaaa" />
+                <br />
+                <label for="qtd">Quantidade de pessoas</label>
+                <input
+                  class="campo"
+                  style="width: 30px"
+                  type="text"
+                  id="qtd"
+                  value="1"
+                />
+              </fieldset>
+              <input
+                class="botao"
+                type="submit"
+                value="Verificar disponibilidade"
+              />
+            </form>
+          </section>
+          <section id="galeria">
+            <h4>Galeria de fotos</h4>
+            <a href="">
+              <img
+                src="img/externo-shopping.jfif"
+                alt="foto1"
+                height="93"
+                width="93"
+              />
+            </a>
+            <a href="">
+              <img
+                src="img/shopping-noite.jfif"
+                alt="foto1"
+                height="93"
+                width="93"
+              />
+            </a>
+            <a href="">
+              <img src="img/hotzone.jpg" alt="foto1" height="93" width="93" />
+            </a>
+            <a href="">
+              <img
+                src="img/foto-shopping.jfif"
+                alt="foto1"
+                height="93"
+                width="93"
+              />
+            </a>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

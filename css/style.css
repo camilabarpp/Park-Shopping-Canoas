@@ -1,0 +1,134 @@
+/*Estrutura do site*/
+body {
+  background:  url(../img/topo.jpg) repeat-x;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+  color: #8B4513;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DEB887;
+}
+
+/*Logo*/
+#logo h1 {
+  float: left;
+}
+
+#logo a {
+  width: 444px;
+  height: 97px;
+  text-indent: -9999px;
+  display: block;
+  background: url(../img/logo.png) no-repeat;
+}
+
+/*Barra de navegação*/
+header {
+  padding: 15px;
+  height: 55px;
+}
+
+nav ul {
+  font-size: 1.5em;
+  list-style: none;
+  margin: 60px;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a:link {
+  display: block;
+  margin-right: 25px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #F5DEB3;
+}
+
+/*Príncipal*/
+#conteudo {
+  width: 710px;
+  float: left;
+}
+
+aside {
+  width: 350px;
+  float: right;
+  background: #D2B48C;
+}
+
+section#visita {
+  background: #D2B48C;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+}
+
+section#galeria {
+  padding: 0 27px 0 27px;
+}
+
+section#galeria a {
+  display: block;
+  background: #DEB887;
+  float: left;
+  padding: 17px 15px 17px 15px;
+  margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+article#video {
+  float: left;
+  width: 310px;
+  margin-left: 25px;
+}
+
+article#mapa {
+  float: left;
+  width: 310px;
+  margin-left: 37px;
+}
+
+article#lojas {
+  float: left;
+  width: 310px;
+  margin: 15px 0 0 25px;
+}
+
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15 0 0 37px;
+}
+
+h3 {
+  color: #DEB887;
+  font-size: 1.0em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #DEB887;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
